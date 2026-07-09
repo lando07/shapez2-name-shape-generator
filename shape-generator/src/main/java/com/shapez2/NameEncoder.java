@@ -33,7 +33,7 @@ public class NameEncoder {
         if(normalized.isBlank()){
             return 0;
         }
-        return ((long) normalized.hashCode()) * 31L + normalized.length();
+        return ((long) normalized.hashCode()) + normalized.length();
     }
 
     public static Shape generateShape(String firstName, String lastName){
@@ -74,6 +74,11 @@ public class NameEncoder {
             
             // Turn the random integer into a ShapeType using its ordinal
             ShapeType type = ShapeType.values()[random.nextInt(ShapeType.values().length)];
+
+            // If an empty quadrant is selected, it only has a 25% chance of staying empty
+            if (type == ShapeType.EMPTY && random.nextInt(25) != 0) {
+                type = ShapeType.values()[random.nextInt(ShapeType.values().length - 1)];
+            }
 
             if (type == ShapeType.PIN) {
                 layer.setQuadrant(pos, new PinQuadrant(type, pos));

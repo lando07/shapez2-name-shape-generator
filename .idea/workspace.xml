@@ -4,39 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca930ed4-e5d2-44a0-8f9e-fc9f518e8b66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discordrp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jspecify_jspecify_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_6_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_6_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_6_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_6_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_6_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_6_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_6_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/shape-generator.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/shape-generator.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shapez2-shape-generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape-generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/NameEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/shapeData/PinQuadrant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/shapeData/Quadrant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/shapeData/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/shapeData/ShapeLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/shapeData/ShapeQuadrant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/shapeData/enums/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/shapeData/enums/QuadrantPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/shapeData/enums/ShapeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape-generator/src/test/java/NameEncoderTest.java" afterDir="false" />
+    <list default="true" id="ca930ed4-e5d2-44a0-8f9e-fc9f518e8b66" name="Changes" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/build/classes/java/main/com/shapez2/NameEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/classes/java/main/com/shapez2/NameEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/ShapeValidationTest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/ShapeValidationTest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/build/test-results/test/TEST-ShapeValidationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/test-results/test/TEST-ShapeValidationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/build/test-results/test/binary/results-generic.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/test-results/test/binary/results-generic.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/build/tmp/compileJava/compileTransaction/stash-dir/NameEncoder.class.uniqueId3" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/tmp/compileJava/compileTransaction/stash-dir/NameEncoder.class.uniqueId3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/NameEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/NameEncoder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +43,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/shape-generator">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -86,61 +77,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="5.320524918816913E-6" />
-      <entry key="MS500" value="0.09047274142312854" />
-      <entry key="S2" value="0.7672488192498276" />
-      <entry key="S5" value="1.5386136208954546" />
-      <entry key="S10" value="2.5325248369626996" />
-      <entry key="S30" value="4.311713243297784" />
-      <entry key="S60" value="5.473932743288894" />
-      <entry key="M2" value="8.739260121034686" />
-      <entry key="M5" value="26.88554939815024" />
-      <entry key="M10" value="73.16176109683869" />
-      <entry key="M15" value="124.42368596544648" />
-      <entry key="M30" value="278.2172034403428" />
-      <entry key="H1" value="527.2000347910008" />
-      <entry key="H2" value="808.9768408532409" />
-      <entry key="H4" value="1037.811950964159" />
-      <entry key="D1" value="1302.4647076168987" />
-      <entry key="W1" value="1356.6757060258328" />
+      <entry key="MS100" value="1.383675017934766" />
+      <entry key="MS500" value="2.8097192270974194" />
+      <entry key="S2" value="3.625039192300149" />
+      <entry key="S5" value="3.842320235387236" />
+      <entry key="S10" value="3.9972113797656745" />
+      <entry key="S30" value="13.942854245571821" />
+      <entry key="S60" value="39.562004443452864" />
+      <entry key="M2" value="72.24263869156803" />
+      <entry key="M5" value="108.06833185524017" />
+      <entry key="M10" value="141.15214399440333" />
+      <entry key="M15" value="179.13093146059438" />
+      <entry key="M30" value="313.14985064196276" />
+      <entry key="H1" value="560.3654693649361" />
+      <entry key="H2" value="863.3543044401863" />
+      <entry key="H4" value="1121.3143477761892" />
+      <entry key="D1" value="1429.6304704059985" />
+      <entry key="W1" value="1493.9087829190223" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000014175747" />
-      <entry key="S2" value="1.0109115510349016" />
-      <entry key="S5" value="1.164117387600033" />
-      <entry key="S10" value="1.4051140434471123" />
-      <entry key="S30" value="1.7413883730504576" />
-      <entry key="S60" value="1.92021963849413" />
-      <entry key="M2" value="2.371238685241874" />
-      <entry key="M5" value="3.9280117652795323" />
-      <entry key="M10" value="6.9434264186128765" />
-      <entry key="M15" value="10.502463246351486" />
-      <entry key="M30" value="23.583532150770925" />
-      <entry key="H1" value="48.36122935759451" />
-      <entry key="H2" value="77.37291857076198" />
-      <entry key="H4" value="100.81689793042474" />
-      <entry key="D1" value="127.61859143776846" />
-      <entry key="W1" value="133.06474940799976" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="5.119251574086542E-170" />
+      <entry key="S5" value="2.227378900905922E-68" />
+      <entry key="S10" value="1.9436149774812343E-34" />
+      <entry key="S30" value="9.005929190717955E-12" />
+      <entry key="S60" value="4.366840714113016E-6" />
+      <entry key="M2" value="0.0035758845882424848" />
+      <entry key="M5" value="0.29210303452462444" />
+      <entry key="M10" value="1.8934571528960908" />
+      <entry key="M15" value="4.416507103650841" />
+      <entry key="M30" value="15.293353676471979" />
+      <entry key="H1" value="38.94433325892375" />
+      <entry key="H2" value="69.43244350862487" />
+      <entry key="H4" value="95.50367101825978" />
+      <entry key="D1" value="126.47219888795546" />
+      <entry key="W1" value="132.89332902381963" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.6590870768020986E-6" />
-      <entry key="MS500" value="0.12238367680492308" />
-      <entry key="S2" value="1.1531616371228175" />
-      <entry key="S5" value="2.305854041767214" />
-      <entry key="S10" value="3.651247701918001" />
-      <entry key="S30" value="5.910763736699641" />
-      <entry key="S60" value="7.309027671314156" />
-      <entry key="M2" value="11.05006026824337" />
-      <entry key="M5" value="30.758288101509745" />
-      <entry key="M10" value="80.04223901218454" />
-      <entry key="M15" value="134.85929666575896" />
-      <entry key="M30" value="301.7323082274686" />
-      <entry key="H1" value="575.498879387217" />
-      <entry key="H2" value="886.302282748616" />
-      <entry key="H4" value="1138.5984147731488" />
-      <entry key="D1" value="1430.0769273855103" />
-      <entry key="W1" value="1489.7395070646803" />
+      <entry key="MS100" value="1.3619527513080825" />
+      <entry key="MS500" value="2.798905207241799" />
+      <entry key="S2" value="3.6213452992142603" />
+      <entry key="S5" value="3.840735145879227" />
+      <entry key="S10" value="3.9963773869071635" />
+      <entry key="S30" value="13.9406943584671" />
+      <entry key="S60" value="39.557724566325064" />
+      <entry key="M2" value="72.24165638788287" />
+      <entry key="M5" value="108.35352150125755" />
+      <entry key="M10" value="143.0268040427252" />
+      <entry key="M15" value="183.5181815374666" />
+      <entry key="M30" value="328.3982288773549" />
+      <entry key="H1" value="599.2592566754511" />
+      <entry key="H2" value="932.7439872606925" />
+      <entry key="H4" value="1216.789109926127" />
+      <entry key="D1" value="1556.0963416782083" />
+      <entry key="W1" value="1626.8011629104137" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -317,9 +308,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.ShapeValidationTest" />
         <item itemvalue="Gradle.NameEncoderTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.ShapeValidationTest.testMultipleLayersInvalid" />
         <item itemvalue="Gradle.ShapeValidationTest.testFixShape" />
       </list>
@@ -344,8 +335,25 @@
       <workItem from="1783623839038" duration="367000" />
       <workItem from="1783624217950" duration="161000" />
       <workItem from="1783624388416" duration="5397000" />
-      <workItem from="1783629800947" duration="5525000" />
+      <workItem from="1783629800947" duration="7133000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1783635481051</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783635481052</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1783635580750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783635580750</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,5 +369,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
