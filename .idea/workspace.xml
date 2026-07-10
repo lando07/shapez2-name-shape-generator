@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shape-generator:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca930ed4-e5d2-44a0-8f9e-fc9f518e8b66" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/shape_generator_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/shape-generator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shape-generator/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/shape-generator.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/shape-generator.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/shape-generator.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/shape-generator.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/executionHistory/executionHistory.bin" afterDir="false" />
@@ -14,17 +27,12 @@
       <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/9.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shape-generator/build/classes/java/main/com/shapez2/NameEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/classes/java/main/com/shapez2/NameEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape-generator/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/ShapeValidationTest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/ShapeValidationTest/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/reports/tests/test/js/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shape-generator/build/test-results/test/TEST-ShapeValidationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/test-results/test/TEST-ShapeValidationTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shape-generator/build/test-results/test/binary/results-generic.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/test-results/test/binary/results-generic.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shape-generator/build/tmp/compileJava/compileTransaction/stash-dir/NameEncoder.class.uniqueId3" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/tmp/compileJava/compileTransaction/stash-dir/NameEncoder.class.uniqueId3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shape-generator/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/NameEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/NameEncoder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +40,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="40" />
+    <option name="cachedIndexableFilesCount" value="18" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExternalProjectsData">
@@ -53,6 +61,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="shape-generator" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="shape-generator" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="shape-generator" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -71,67 +90,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lando07"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lando07/shapez2-name-shape-generator.git",
+    "accountId": "d4c97a10-2bae-4f3b-9e37-946d4cdfca17"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.383675017934766" />
-      <entry key="MS500" value="2.8097192270974194" />
-      <entry key="S2" value="3.625039192300149" />
-      <entry key="S5" value="3.842320235387236" />
-      <entry key="S10" value="3.9972113797656745" />
-      <entry key="S30" value="13.942854245571821" />
-      <entry key="S60" value="39.562004443452864" />
-      <entry key="M2" value="72.24263869156803" />
-      <entry key="M5" value="108.06833185524017" />
-      <entry key="M10" value="141.15214399440333" />
-      <entry key="M15" value="179.13093146059438" />
-      <entry key="M30" value="313.14985064196276" />
-      <entry key="H1" value="560.3654693649361" />
-      <entry key="H2" value="863.3543044401863" />
-      <entry key="H4" value="1121.3143477761892" />
-      <entry key="D1" value="1429.6304704059985" />
-      <entry key="W1" value="1493.9087829190223" />
+      <entry key="MS100" value="1.9395367116001354" />
+      <entry key="MS500" value="5.406667243198193" />
+      <entry key="S2" value="8.35746146907119" />
+      <entry key="S5" value="9.28624112454624" />
+      <entry key="S10" value="9.706678148052246" />
+      <entry key="S30" value="19.692178265001232" />
+      <entry key="S60" value="45.238972775105395" />
+      <entry key="M2" value="77.95477371960777" />
+      <entry key="M5" value="113.8977203623496" />
+      <entry key="M10" value="147.04124631115536" />
+      <entry key="M15" value="185.0374270826486" />
+      <entry key="M30" value="319.0685709942942" />
+      <entry key="H1" value="566.2929851751285" />
+      <entry key="H2" value="869.2985478351357" />
+      <entry key="H4" value="1127.2781622103275" />
+      <entry key="D1" value="1435.6227846455308" />
+      <entry key="W1" value="1499.9076356669277" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="5.119251574086542E-170" />
-      <entry key="S5" value="2.227378900905922E-68" />
-      <entry key="S10" value="1.9436149774812343E-34" />
-      <entry key="S30" value="9.005929190717955E-12" />
-      <entry key="S60" value="4.366840714113016E-6" />
-      <entry key="M2" value="0.0035758845882424848" />
-      <entry key="M5" value="0.29210303452462444" />
-      <entry key="M10" value="1.8934571528960908" />
-      <entry key="M15" value="4.416507103650841" />
-      <entry key="M30" value="15.293353676471979" />
-      <entry key="H1" value="38.94433325892375" />
-      <entry key="H2" value="69.43244350862487" />
-      <entry key="H4" value="95.50367101825978" />
-      <entry key="D1" value="126.47219888795546" />
-      <entry key="W1" value="132.89332902381963" />
+      <entry key="S2" value="4.059868238570717E-170" />
+      <entry key="S5" value="2.0300946562307627E-68" />
+      <entry key="S10" value="1.8555443129737664E-34" />
+      <entry key="S30" value="8.86779324952659E-12" />
+      <entry key="S60" value="4.3332212708036205E-6" />
+      <entry key="M2" value="0.0035620929779977177" />
+      <entry key="M5" value="0.2916518743172921" />
+      <entry key="M10" value="1.8919943426389667" />
+      <entry key="M15" value="4.41423213129007" />
+      <entry key="M30" value="15.289414314704" />
+      <entry key="H1" value="38.93931716822514" />
+      <entry key="H2" value="69.42797186127115" />
+      <entry key="H4" value="95.5005956143681" />
+      <entry key="D1" value="126.47152010373111" />
+      <entry key="W1" value="132.8932271311806" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3619527513080825" />
-      <entry key="MS500" value="2.798905207241799" />
-      <entry key="S2" value="3.6213452992142603" />
-      <entry key="S5" value="3.840735145879227" />
-      <entry key="S10" value="3.9963773869071635" />
-      <entry key="S30" value="13.9406943584671" />
-      <entry key="S60" value="39.557724566325064" />
-      <entry key="M2" value="72.24165638788287" />
-      <entry key="M5" value="108.35352150125755" />
-      <entry key="M10" value="143.0268040427252" />
-      <entry key="M15" value="183.5181815374666" />
-      <entry key="M30" value="328.3982288773549" />
-      <entry key="H1" value="599.2592566754511" />
-      <entry key="H2" value="932.7439872606925" />
-      <entry key="H4" value="1216.789109926127" />
-      <entry key="D1" value="1556.0963416782083" />
-      <entry key="W1" value="1626.8011629104137" />
+      <entry key="MS100" value="1.8412374953094122" />
+      <entry key="MS500" value="5.29145672203714" />
+      <entry key="S2" value="8.311068913385434" />
+      <entry key="S5" value="9.265682734343635" />
+      <entry key="S10" value="9.696014824127024" />
+      <entry key="S30" value="19.68669132887083" />
+      <entry key="S60" value="45.23303672650038" />
+      <entry key="M2" value="77.952948375074" />
+      <entry key="M5" value="114.18213024841752" />
+      <entry key="M10" value="148.91428834121058" />
+      <entry key="M15" value="189.4223040841256" />
+      <entry key="M30" value="334.31296485609573" />
+      <entry key="H1" value="605.181734604364" />
+      <entry key="H2" value="938.6837476110763" />
+      <entry key="H4" value="1222.7498428115766" />
+      <entry key="D1" value="1562.0879759881684" />
+      <entry key="W1" value="1632.7999135979342" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -153,9 +184,15 @@
     "Gradle.ShapeValidationTest.testFixShape.executor": "Run",
     "Gradle.ShapeValidationTest.testMultipleLayersInvalid.executor": "Run",
     "Gradle.shape-generator [:com.shapez2.Main.main()].executor": "Run",
+    "Gradle.shape-generator [jar].executor": "Run",
+    "JAR Application.Shape Generator.executor": "Run",
+    "JAR Application.shape-generator-1.0-SNAPSHOT.jar.executor": "Run",
+    "JAR Application.shape-generator.jar.executor": "Run",
+    "JAR Application.shape-generator.main.jar.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -171,7 +208,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/lando/Repos/shapez2-shape-generator/shape-generator/src/main/java/com/shapez2/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.21724138",
     "settings.editor.selected.configurable": "io.github.pandier.intellijdiscordrp.settings.project.DiscordProjectSettingsConfigurable",
@@ -184,47 +221,7 @@
       <recent name="$PROJECT_DIR$/shape-generator/src/main/java/com/shapez2/shapeData/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shapez2.Main" />
-      <module name="shape-generator.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shapez2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NameEncoderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/shape-generator" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;NameEncoderTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JAR Application.shape-generator-1.0-SNAPSHOT.jar">
     <configuration name="ShapeValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -252,67 +249,57 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShapeValidationTest.testFixShape" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="shape-generator [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/shape-generator" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ShapeValidationTest.testFixShape&quot;" />
+            <option value="jar" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <GradleProfilingDisabled>false</GradleProfilingDisabled>
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShapeValidationTest.testMultipleLayersInvalid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/shape-generator" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ShapeValidationTest.testMultipleLayersInvalid&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+    <configuration name="shape-generator-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/shape-generator/build/libs/shape-generator-1.0-SNAPSHOT.jar" />
       <method v="2" />
     </configuration>
+    <configuration name="shape-generator.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/shape_generator_jar/shape-generator.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shape-generator.main.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/shape_generator_main_jar/shape-generator.main.jar" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.shape-generator [jar]" />
+      <item itemvalue="Gradle.ShapeValidationTest" />
+      <item itemvalue="JAR Application.shape-generator-1.0-SNAPSHOT.jar" />
+      <item itemvalue="JAR Application.shape-generator.jar" />
+      <item itemvalue="JAR Application.shape-generator.main.jar" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.shape-generator-1.0-SNAPSHOT.jar" />
+        <item itemvalue="Gradle.shape-generator [jar]" />
+        <item itemvalue="JAR Application.shape-generator.jar" />
+        <item itemvalue="JAR Application.shape-generator.main.jar" />
         <item itemvalue="Gradle.ShapeValidationTest" />
-        <item itemvalue="Gradle.NameEncoderTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.ShapeValidationTest.testMultipleLayersInvalid" />
-        <item itemvalue="Gradle.ShapeValidationTest.testFixShape" />
       </list>
     </recent_temporary>
   </component>
@@ -336,6 +323,7 @@
       <workItem from="1783624217950" duration="161000" />
       <workItem from="1783624388416" duration="5397000" />
       <workItem from="1783629800947" duration="7133000" />
+      <workItem from="1783643240458" duration="1298000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -358,6 +346,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.name" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

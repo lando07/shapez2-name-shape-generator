@@ -9,6 +9,16 @@ repositories {
     mavenCentral()
 }
 
+tasks.jar.configure {
+    manifest {
+        attributes(mapOf("Main-Class" to "com.shapez2.Main"))
+    }
+    configurations["compileClasspath"].forEach { file: File ->
+        from(zipTree(file.absoluteFile))
+    }
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+}
+
 dependencies {
     implementation("org.jetbrains:annotations:15.0")
     testImplementation(platform("org.junit:junit-bom:6.0.0"))
